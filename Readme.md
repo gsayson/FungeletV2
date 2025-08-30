@@ -5,5 +5,10 @@ Fungelet is a static webapp. It is built upon:
 2. **jinja2-cli** for modular html through jinja.
 3. **Sass** for modular CSS stylesheets
 
+To run this project, you'll need to have Jinja2 installed,
+as well as npm. Then invoke `npm i`.
+
+Afterward, do `npm run build` to build the project.
+
 ## Credits
 1. Matrixtype font: GGBotnet, [source](https://www.fontspace.com/matrixtype-font-f125326)
