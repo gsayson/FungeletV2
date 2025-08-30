@@ -16,13 +16,13 @@ else
 fi
 
 # Confirm.
-echo "This script is about to install staticninja, sass and typescript globally."
+echo "This script is about to install jinja2-cli, sass and typescript globally."
 echo "If you are okay with this, press enter to continue."
 read
 
 # Base tech stack. Uhrm currently all global installs but eh.
-echo "============Installing staticninja"
-pip3 install staticjinja 
+echo "============Installing jinja2-cli"
+pip3 install jinja2-cli 
 
 echo "============Installing sass"
 npm install -g sass
@@ -30,3 +30,9 @@ npm install -g sass
 echo "============Installing typescript"
 npm install -g typescript
 
+# Extra utils.
+echo "This script is about to install when-changed globally."
+echo "It is used in dev watch_build.sh"
+echo "If you are okay with this, press enter to continue."
+read
+pip install https://github.com/joh/when-changed/archive/master.zip

@@ -2,6 +2,6 @@
 ## Tech stack
 Fungelet is a static webapp. It is built upon:
 1. **Typescript** for the bulk of the logic, with JsDoc.
-2. **Staticjinja** for modular html through jinja.
+2. **jinja2-cli** for modular html through jinja.
 3. **Sass** for modular CSS stylesheets
 

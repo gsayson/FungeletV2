@@ -1,0 +1,10 @@
+{
+  "include": ["./main.ts"],
+  "compilerOptions": {
+    "outFile": "../../built/main.js",
+    "strict": true,
+    "noImplicitAny": true, // Disable inferred Any type to ensure type safety is enforced.
+    "strictNullChecks": true, // Catch bugs which happen with trying to use an undefined.
+    "experimentalDecorators": true // I cant live without decorators man
+  },
+}
