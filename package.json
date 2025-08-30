@@ -1,0 +1,25 @@
+{
+  "name": "fungeletv2",
+  "version": "1.0.0",
+  "description": "a Befunge IDE built as if it's a real language",
+  "main": "./src/ts/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "run": "node ./dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lomnom/FungeletV2.git"
+  },
+  "author": "lomnom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lomnom/FungeletV2/issues"
+  },
+  "homepage": "https://github.com/lomnom/FungeletV2#readme",
+  "dependencies": {
+    "sass": "^1.91.0",
+    "typescript": "^5.9.2"
+  }
+}
