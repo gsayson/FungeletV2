@@ -14,7 +14,7 @@ OUTPATH="../built/"
 watch_jinja () {
     jinja2 templates/main.html > ../built/main.html
     echo "Jinja is watching..."
-    when-changed templates/main.html -c "jinja2 templates/main.html > ../built/main.html && echo Change detected! Updated main.html"
+    when-changed templates/ -c "jinja2 templates/main.html > ../built/main.html && echo Change detected! Updated main.html"
 }
 
 # Trap Ctrl-C (SIGINT) and terminate everything

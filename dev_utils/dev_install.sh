@@ -35,4 +35,4 @@ echo "This script is about to install when-changed globally."
 echo "It is used in dev watch_build.sh"
 echo "If you are okay with this, press enter to continue."
 read
-pip install https://github.com/joh/when-changed/archive/master.zip
+pip install when-changed
