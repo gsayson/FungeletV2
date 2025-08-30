@@ -19,3 +19,6 @@
 - Components should be small, reusable building blocks
 - slot.html jinja template to define where units go, and use the component.html jinja template to define the reusable units.
 - ModComponents will handle extraction, registration, and instantiation.
+
+### Documentation
+Please add a brief comment on the purpose of the file at the head of the file.

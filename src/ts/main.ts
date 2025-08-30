@@ -1,1 +1,1 @@
-window.alert("HELLO FROM TS!");
+console.log("Hello from TS!")
